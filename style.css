@@ -140,12 +140,6 @@ p {
   background-color: var(--primary-color);
 }
 
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
 .bar {
   width: 25px;
   height: 3px;
