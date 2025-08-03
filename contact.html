@@ -154,11 +154,12 @@
 
           <!-- Contact Form -->
           <div class="contact-form-container">
-            <form class="contact-form">
+            <form action="https://api.web3forms.com/submit" class="contact-form" method="post">
               <h2>Send Us a Message</h2>
 
               <div class="form-row">
                 <div class="form-group">
+                  <input type="hidden" name="access_key" value="d02b11c6-a494-4a7c-b367-d013bdd73a54">
                   <label for="firstName">First Name</label>
                   <input type="text" id="firstName" name="firstName" required />
                 </div>
